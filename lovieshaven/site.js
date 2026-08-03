@@ -1,4 +1,4 @@
-/* RESTORATION — shared behaviour. Quiet by design. */
+/* LOVIE'S HAVEN — shared behaviour. Quiet by design. */
 (function () {
   var head = document.querySelector('.site-head');
   var btn = document.querySelector('.menu-btn');

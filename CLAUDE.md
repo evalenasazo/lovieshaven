@@ -30,24 +30,29 @@ python3 -m http.server 8000   # then open http://localhost:8000
 
 ## Files
 
+The site pages live in the `lovieshaven/` directory so they serve at the
+`/lovieshaven` subpath of theloviesfoundation.org. The root `vercel.json`
+redirects `/` to `/lovieshaven` until a foundation homepage exists at root.
+
 ```
-index.html      Home — hero, the one rule, field log, land, two species,
-                pavilion, ways in, funding, closer
-elephants.html  Residents, the nevers, observation model, field log (#log)
-stay.html       Location, cabins, rates, house rules, private buyout
-wellness.html   Human-healing pillar, daily rhythm, treatments,
-                memberships (#membership), retreats
-weddings.html   Twelve dates a year, conditions, inclusions
-cafe.html       Café and gift shop
-story.html      Brand story
-about.html      Philosophy, the rule applied, land plan, care standards,
-                breeding position, what we are not
-donate.html     Costs, giving, sponsorship (#sponsor), partners (#partners),
-                legacy (#legacy)
-style.css       All design tokens and layout
-site.js         Sticky header, mobile menu, IntersectionObserver reveals
+vercel.json     Clean URLs, / → /lovieshaven redirect, asset caching
+lovieshaven/
+  index.html      Home — hero, the one rule, field log, land, two species,
+                  pavilion, ways in, funding, closer
+  elephants.html  Residents, the nevers, observation model, field log (#log)
+  stay.html       Location, cabins, rates, house rules, private buyout
+  wellness.html   Human-healing pillar, daily rhythm, treatments,
+                  memberships (#membership), retreats
+  weddings.html   Twelve dates a year, conditions, inclusions
+  cafe.html       Café and gift shop
+  story.html      Brand story
+  about.html      Philosophy, the rule applied, land plan, care standards,
+                  breeding position, what we are not
+  donate.html     Costs, giving, sponsorship (#sponsor), partners (#partners),
+                  legacy (#legacy)
+  style.css       All design tokens and layout
+  site.js         Sticky header, mobile menu, IntersectionObserver reveals
 SITEMAP.md      Full site map, design system, handoff notes
-vercel.json     Clean URLs + asset caching
 ```
 
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
