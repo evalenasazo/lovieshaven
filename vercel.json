@@ -2,6 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/", "destination": "/lovieshaven", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/(.*)\\.(css|js|svg|woff2)",
