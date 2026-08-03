@@ -55,7 +55,7 @@ URLs.
 ## Before going live
 
 - Resident names, ages, histories, rates and dollar figures are placeholder.
-- Acreage (150), capacity (10 elephants) and the national-forest boundary
+- Acreage (150), capacity (3-5 elephants) and the national-forest boundary
   assume the target property. Confirm wetlands, zoning, setbacks, easements.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile.
 - `mailto:` links (give@, weddings@, partners@, legacy@) need real forms or a

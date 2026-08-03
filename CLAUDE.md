@@ -176,7 +176,7 @@ up, and no empty marketing superlatives — warmth comes from specifics.
   water bungalows $1,960/night (1–2 bed, private dock, sleeps 4),
   village huts $1,060/night (studio/1-bed), wedding weekends from $15k,
   founding tiers $25k/$50k/$75k
-- 150 acres, ten-elephant capacity, national-forest boundary — these assume a
+- 150 acres, three-to-five-elephant capacity, national-forest boundary — these assume a
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile

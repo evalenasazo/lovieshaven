@@ -91,7 +91,7 @@ Café & Shop, Winnie's Farm and Visiting & Questions sit in the footer only, to 
 ## Notes before this goes live
 
 - Resident names, ages, histories, rates and figures are placeholder. Swap for real ones before publishing.
-- Acreage, capacity (ten elephants) and the national-forest boundary reflect the 150-acre target property; confirm wetlands, zoning, setbacks and easements before any of it goes on a public page.
+- Acreage, capacity (three to five elephants at a time) and the national-forest boundary reflect the 150-acre target property; confirm wetlands, zoning, setbacks and easements before any of it goes on a public page.
 - Wedding capacity is set at 120. The pavilion is described as seating 150 — confirm against the real building before publishing either number.
 - Email addresses (`give@`, `weddings@`, `partners@`, `legacy@`, `stay@`) are placeholders on `mailto:` links — replace with real forms or a booking engine.
 - All imagery is drawn SVG (hero meadow, estate plan, lakeside and farm scenes, badge logo). The founder's masterplan renders can replace them — drop files in `lovieshaven/img/` and swap the figures, keeping the masterplan geography.
