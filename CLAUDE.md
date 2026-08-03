@@ -57,6 +57,10 @@ redirects `/` to `/lovieshaven` until a foundation homepage exists at root.
 
 ```
 vercel.json     Clean URLs, / → /lovieshaven redirect, asset caching
+                (images/fonts immutable for a year; css/js revalidate.
+                Pages link style.css?v=N / site.js?v=N — bump N whenever
+                you edit either file, or long-cached browsers keep the
+                old copy and the header wordmark loses its script font)
 lovieshaven/
   index.html      Home — masterplan hero (img/masterplan.jpg), Founding 100
                   strip, the one rule, field log, land, two species,
