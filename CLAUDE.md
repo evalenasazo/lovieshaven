@@ -19,16 +19,17 @@ Positioning: *Rehabilitation for elephants. Restoration for people.*
 Reference points: Aman Resorts meets The Elephant Sanctuary.
 
 The site now doubles as the **pitch**: the project is anchored by the
-Founding 100 — one hundred founding memberships (50 × $25k Meadow,
-25 × $50k Lakeside, 25 × $75k Sky View = a $4.375M raise) that buy
-lifetime class access plus a 2/3/4-night annual stay for life. Founders
-fund **Phase One only**: land, habitat, barns, farm — the sanctuary
-itself. Phase Two (pavilion, bungalows, village, endowment; $13–15M
-working target of a $15–20M total build) is a follow-on capital
-campaign of named gifts, grants and partners. Don't let copy claim the
-$4.375M builds everything. The nav CTA and home hero drive to
-`invest.html`; the reader outcome is "I want this to exist, and I want
-to be one of the hundred."
+Founding 150 — one hundred and fifty founding memberships (50 × $25k
+Meadow, 50 × $50k Lakeside, 50 × $75k Sky View = a $7.5M raise) that
+buy a lifetime class pass, two seats at the annual Founders' Gala, and
+a complimentary 1/2/3-night annual stay for life. Founders fund
+**Phase One only**: land, habitat, barns, farm, first arrivals and an
+endowment seed — the sanctuary itself. Phase Two (pavilion, bungalows,
+village, the rest of the endowment; $8–12M working target of a $15–20M
+total build) is a follow-on capital campaign of named gifts, grants
+and partners. Don't let copy claim the $7.5M builds everything. The
+nav CTA and home hero drive to `invest.html`; the reader outcome is
+"I want this to exist, and I want to be one of the hundred and fifty."
 
 Concept stage. Not live. Nothing here is a legal or financial commitment;
 founding memberships are framed as contributions with lifetime benefits
@@ -62,10 +63,10 @@ vercel.json     Clean URLs, / → /lovieshaven redirect, asset caching
                 you edit either file, or long-cached browsers keep the
                 old copy and the header wordmark loses its script font)
 lovieshaven/
-  index.html      Home — masterplan hero (img/masterplan.jpg), Founding 100
+  index.html      Home — masterplan hero (img/masterplan.jpg), Founding 150
                   strip, the one rule, field log, land, two species,
                   pavilion, ways in, Winnie's Farm, funding, closer
-  invest.html     The Founding 100 — tiers, budget, arithmetic, how it
+  invest.html     The Founding 150 — tiers, budget, arithmetic, how it
                   works, disclaimer
   elephants.html  Residents, the nevers, observation model, field log (#log)
   farm.html       Winnie's Farm — the hands-on animal rescue
@@ -97,7 +98,7 @@ SITEMAP.md      Full site map, design system, handoff notes
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
 change all eleven.** There is no template engine; that's the tradeoff. The top
 nav stays at seven links plus the CTA, which points at `invest.html`
-("Founding 100"); `cafe.html`, `farm.html`, `visit.html` and `donate.html`
+("Founding 150"); `cafe.html`, `farm.html`, `visit.html` and `donate.html`
 are reached from the footer and in-page links.
 
 The site is served at **theloviesfoundation.org/lovieshaven** — a subpath,
@@ -180,10 +181,12 @@ up, and no empty marketing superlatives — warmth comes from specifics.
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile
+- The Founders' Gala promises two seats to 150 founders (300 potential
+  guests) while the pavilion seats 150 — plan two sittings, or reconcile
 - `mailto:` links (give@, weddings@, partners@, legacy@, founders@, stay@) need real
   forms or a booking engine
-- The Founding 100 budget on `invest.html` is a working illustration that
-  sums to $4.375M — replace with real quotes before any founder signs
+- The Founding 150 budget on `invest.html` is a working illustration that
+  sums to $7.5M — replace with real quotes before any founder signs
 
 ## Sensible next tasks
 
