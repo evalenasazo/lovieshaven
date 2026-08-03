@@ -18,12 +18,17 @@ usually in view, because the meadow and water it prefers face the glass.
 Positioning: *Rehabilitation for elephants. Restoration for people.*
 Reference points: Aman Resorts meets The Elephant Sanctuary.
 
-The site now doubles as the **pitch**: the project is funded by the
+The site now doubles as the **pitch**: the project is anchored by the
 Founding 100 — one hundred founding memberships (50 × $25k Meadow,
-25 × $50k Lakeside, 25 × $75k Sky View = a single $4.375M raise) that buy
-lifetime class access plus a 2/3/4-night annual stay for life. The nav CTA
-and home hero drive to `invest.html`; the reader outcome is "I want this
-to exist, and I want to be one of the hundred."
+25 × $50k Lakeside, 25 × $75k Sky View = a $4.375M raise) that buy
+lifetime class access plus a 2/3/4-night annual stay for life. Founders
+fund **Phase One only**: land, habitat, barns, farm — the sanctuary
+itself. Phase Two (pavilion, bungalows, village, endowment; $13–15M
+working target of a $15–20M total build) is a follow-on capital
+campaign of named gifts, grants and partners. Don't let copy claim the
+$4.375M builds everything. The nav CTA and home hero drive to
+`invest.html`; the reader outcome is "I want this to exist, and I want
+to be one of the hundred."
 
 Concept stage. Not live. Nothing here is a legal or financial commitment;
 founding memberships are framed as contributions with lifetime benefits
@@ -151,7 +156,10 @@ experience," no marketing adjectives stacked three deep.
 
 - Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth),
   and the farm's residents (Winnie et al.)
-- All rates, wedding pricing, membership tiers, and dollar figures
+- All rates, membership tiers, and dollar figures. Founder-set so far:
+  water bungalows $1,960/night (1–2 bed, private dock, sleeps 4),
+  village huts $1,060/night (studio/1-bed), wedding weekends from $15k,
+  founding tiers $25k/$50k/$75k
 - 150 acres, ten-elephant capacity, national-forest boundary — these assume a
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
