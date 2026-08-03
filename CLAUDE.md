@@ -15,6 +15,20 @@ Farm (a hands-on farm-animal rescue) sit east; Lovie's Private Residence
 is on the north lake. The herd is genuinely free-ranging — it is simply
 usually in view, because the meadow and water it prefers face the glass.
 
+The backstory (real, from the founder, Aug 2026): the founder has loved
+elephants all their life — the trips they daydream about are the
+sanctuaries of Asia. "Lovie" was their cousin and best friend, who
+passed away; The Lovie's Foundation was created after her death, in her
+honor, for the benefit of her daughter. The foundation writes children's
+animal-adventure books; proceeds sit in a high-yield savings account
+until the child turns 21, with age-matched financial-literacy books sent
+along the way, and required financial-literacy classes plus a sit-down
+with a financial advisor before funds are released. Lovie's Haven is an
+extension of that foundation, and the first elephant carries the
+cousin's name — "two Lovies." This story lives on `story.html`; keep it
+tender and first-person, and never fictionalize details about the cousin
+or her daughter beyond what's written there.
+
 Positioning: *Rehabilitation for elephants. Restoration for people.*
 Reference points: Aman Resorts meets The Elephant Sanctuary.
 
@@ -78,7 +92,9 @@ lovieshaven/
                   memberships (#membership), retreats
   weddings.html   Twelve dates a year, conditions, inclusions
   cafe.html       Café and gift shop
-  story.html      Brand story
+  story.html      The founder's story — Lovie the cousin, The Lovie's
+                  Foundation (books → savings → literacy → release at 21),
+                  the two Lovies
   about.html      Philosophy, the rule applied, estate plan SVG (#plan),
                   care standards, breeding position, what we are not
   donate.html     Costs, giving, sponsorship (#sponsor), partners (#partners),
