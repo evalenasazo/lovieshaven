@@ -10,7 +10,7 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 
 ---
 
-## Built now (10 pages + home)
+## Built now (11 pages + home)
 
 | # | Page | File | Job it does | Primary CTA |
 |---|------|------|-------------|-------------|
@@ -25,6 +25,7 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 | 9 | Café & Shop | `cafe.html` | Two revenue lines told honestly; no elephant merchandise | Support / stay |
 | 10 | Winnie's Farm | `farm.html` | The hands-on animal rescue; protects the herd's distance | Stay / support |
 | 11 | The Founding 100 | `invest.html` | The pitch: tiers, budget, honest arithmetic, escrow terms | Reserve a place |
+| 12 | Visiting & Questions | `visit.html` | The sighting question answered plainly; every honest no, said with love | Plan a stay |
 
 ### Home page section order
 1. Hero — headline over the masterplan concept render (`img/masterplan.jpg`)
@@ -44,7 +45,7 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 ## Phase two (recommended next)
 
 - **Journal** — long-form field writing, keeper essays, habitat footage
-- **Visit & FAQ** — how to get here, what a stay is and isn't, the sighting question answered plainly
+- **Getting here** — travel and arrival details (the FAQ half now lives at `visit.html`)
 - **Transparency** — annual accounts, welfare audit, intake decisions
 - **Contact / Enquire** — split by intent: stays, weddings, press, giving
 - **Members' area** — gated field log, footage archive, booking
@@ -55,7 +56,7 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 ## Global elements
 
 **Navigation** — Our Elephants · Stay · Wellness · Weddings · Story · About · **Founding 100** (gold CTA → invest.html)
-Café & Shop and Winnie's Farm sit in the footer only, to keep the top nav at seven items.
+Café & Shop, Winnie's Farm and Visiting & Questions sit in the footer only, to keep the top nav at seven items.
 
 **Footer columns** — Visit · The sanctuary · Support, plus the standing disclosure: *no rides, shows or hands-on encounters with the herd — they range freely and are usually in view on their own terms.*
 
@@ -92,5 +93,5 @@ Café & Shop and Winnie's Farm sit in the footer only, to keep the top nav at se
 - Resident names, ages, histories, rates and figures are placeholder. Swap for real ones before publishing.
 - Acreage, capacity (ten elephants) and the national-forest boundary reflect the 150-acre target property; confirm wetlands, zoning, setbacks and easements before any of it goes on a public page.
 - Wedding capacity is set at 120. The pavilion is described as seating 150 — confirm against the real building before publishing either number.
-- Email addresses (`give@`, `weddings@`, `partners@`, `legacy@`) are placeholders on `mailto:` links — replace with real forms or a booking engine.
+- Email addresses (`give@`, `weddings@`, `partners@`, `legacy@`, `stay@`) are placeholders on `mailto:` links — replace with real forms or a booking engine.
 - All imagery is drawn SVG (hero meadow, estate plan, lakeside and farm scenes, badge logo). The founder's masterplan renders can replace them — drop files in `lovieshaven/img/` and swap the figures, keeping the masterplan geography.
