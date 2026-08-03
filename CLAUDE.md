@@ -5,14 +5,35 @@ Context for anyone (human or Claude) picking up this repo.
 ## What this is
 
 Marketing site for **Lovie's Haven** — a retirement sanctuary for rescued
-elephants, funded by a small luxury wellness retreat built at a respectful
-distance from the habitat.
+elephants, funded by a small luxury wellness retreat laid out on the same
+estate. The estate masterplan (supplied by the founder) is the source of
+truth for geography and naming: the Sky View Pavilion (wellness, events &
+dining) faces the Elephant View Meadow and the lake & watering hole;
+Lakeside Lodging and the Sunset Dock sit on the west shore; the Guest
+Cabins village, gated Main Entrance, perimeter Service Road and Winnie's
+Farm (a hands-on farm-animal rescue) sit east; Lovie's Private Residence
+is on the north lake. The herd is genuinely free-ranging — it is simply
+usually in view, because the meadow and water it prefers face the glass.
 
 Positioning: *Rehabilitation for elephants. Restoration for people.*
 Reference points: Aman Resorts meets The Elephant Sanctuary.
-Reader outcome: "I want to stay here, and then I want to protect this place."
 
-Concept stage. Not live. Nothing here is a legal or financial commitment.
+The site now doubles as the **pitch**: the project is anchored by the
+Founding 100 — one hundred founding memberships (50 × $25k Meadow,
+25 × $50k Lakeside, 25 × $75k Sky View = a $4.375M raise) that buy
+lifetime class access plus a 2/3/4-night annual stay for life. Founders
+fund **Phase One only**: land, habitat, barns, farm — the sanctuary
+itself. Phase Two (pavilion, bungalows, village, endowment; $13–15M
+working target of a $15–20M total build) is a follow-on capital
+campaign of named gifts, grants and partners. Don't let copy claim the
+$4.375M builds everything. The nav CTA and home hero drive to
+`invest.html`; the reader outcome is "I want this to exist, and I want
+to be one of the hundred."
+
+Concept stage. Not live. Nothing here is a legal or financial commitment;
+founding memberships are framed as contributions with lifetime benefits
+(escrow until the land closes, written agreement, explicitly not a
+security), and `invest.html` carries that disclaimer — keep it.
 
 ## Stack
 
@@ -37,26 +58,36 @@ redirects `/` to `/lovieshaven` until a foundation homepage exists at root.
 ```
 vercel.json     Clean URLs, / → /lovieshaven redirect, asset caching
 lovieshaven/
-  index.html      Home — hero, the one rule, field log, land, two species,
-                  pavilion, ways in, funding, closer
+  index.html      Home — masterplan hero (img/masterplan.jpg), Founding 100
+                  strip, the one rule, field log, land, two species,
+                  pavilion, ways in, Winnie's Farm, funding, closer
+  invest.html     The Founding 100 — tiers, budget, arithmetic, how it
+                  works, disclaimer
   elephants.html  Residents, the nevers, observation model, field log (#log)
+  farm.html       Winnie's Farm — the hands-on animal rescue
   stay.html       Location, cabins, rates, house rules, private buyout
   wellness.html   Human-healing pillar, daily rhythm, treatments,
                   memberships (#membership), retreats
   weddings.html   Twelve dates a year, conditions, inclusions
   cafe.html       Café and gift shop
   story.html      Brand story
-  about.html      Philosophy, the rule applied, land plan, care standards,
-                  breeding position, what we are not
+  about.html      Philosophy, the rule applied, estate plan SVG (#plan),
+                  care standards, breeding position, what we are not
   donate.html     Costs, giving, sponsorship (#sponsor), partners (#partners),
                   legacy (#legacy)
   style.css       All design tokens and layout
   site.js         Sticky header, mobile menu, IntersectionObserver reveals
+  img/            masterplan.jpg — the founder's concept render (hero).
+                  More renders land here as they're supplied (GHL-hosted
+                  URLs may be swapped in for local files)
 SITEMAP.md      Full site map, design system, handoff notes
 ```
 
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
-change all nine.** There is no template engine; that's the tradeoff.
+change all ten.** There is no template engine; that's the tradeoff. The top
+nav stays at seven links plus the CTA, which points at `invest.html`
+("Founding 100"); `cafe.html`, `farm.html` and `donate.html` are reached
+from the footer and in-page links.
 
 The site is served at **theloviesfoundation.org/lovieshaven** — a subpath,
 not a domain root. All internal links and asset references must stay
@@ -88,10 +119,14 @@ modifier class, or the specificities will fight.
 Motion: one ambient drift in the hero, staggered `.rise` reveals on scroll,
 nothing else. `prefers-reduced-motion` is respected and must stay that way.
 
-**No photography anywhere.** The hero herd is drawn SVG, deliberately distant
-and captioned *"observed from the pavilion, 400 metres away."* This is a brand
-position, not a placeholder waiting to be filled. When real images arrive, keep
-the distance honest — nothing closer than a guest could actually stand.
+**No photography yet — everything is drawn.** All imagery is inline SVG in
+the site's silhouette style: the hero meadow scene, the labeled estate plan
+on `about.html#plan`, the Lakeside/Sunset Dock scene on `stay.html`, the
+farm scene on `farm.html`, and the circular badge logo on `story.html`
+(line-drawn elephant raising her trunk to a heart — the real logo's motif).
+The founder's photoreal masterplan renders can replace or join these; drop
+files in `lovieshaven/img/` and swap the figures. Scenes should keep
+matching the masterplan geography.
 
 ## Editorial rules
 
@@ -100,14 +135,18 @@ touch:
 
 - Every decision answers **"Is this better for the elephants?"** If no, it isn't
   built. This line appears on home and about and should not be softened.
-- No performances, no contact, no feeding, no bathing, no photo sessions, no
-  scheduled sightings, no promise a guest will see an elephant at all.
+- No performances, no contact, no feeding, no bathing, no rides, no photo
+  sessions with elephants. Sightings are frequent (the meadow faces the
+  glass) but never scheduled, promised, or engineered — elephants are never
+  summoned, positioned or lit for viewing.
+- Winnie's Farm is the hands-on release valve: rescued farm animals who
+  *want* the attention. Contact belongs there, never with the herd.
 - No breeding. Retirement sanctuary, not a breeding programme.
-- Guests are sited near where elephants already go (watering hole, shade stand,
-  wallow). Elephants are never moved toward guests.
+- Guests are sited near where elephants already go (meadow, watering hole,
+  shade stand, wallow). Elephants are never moved toward guests.
 - The **field log** is the signature device — dated care-team entries published
-  unedited, *including* the mornings nobody saw an elephant. Don't sand off the
-  empty days; they are the proof.
+  unedited, *including* the quiet days when the herd keeps to the grove.
+  Don't sand those off; they are the proof the sightings are real.
 
 Voice is plain, specific, and unsentimental. Short declaratives. It earns
 emotion by withholding it. No exclamation marks, no "nestled," no "unforgettable
@@ -115,14 +154,20 @@ experience," no marketing adjectives stacked three deep.
 
 ## Placeholder — replace before publishing
 
-- Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth)
-- All rates, wedding pricing, membership tiers, and dollar figures
+- Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth),
+  and the farm's residents (Winnie et al.)
+- All rates, membership tiers, and dollar figures. Founder-set so far:
+  water bungalows $1,960/night (1–2 bed, private dock, sleeps 4),
+  village huts $1,060/night (studio/1-bed), wedding weekends from $15k,
+  founding tiers $25k/$50k/$75k
 - 150 acres, ten-elephant capacity, national-forest boundary — these assume a
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile
-- `mailto:` links (give@, weddings@, partners@, legacy@) need real forms or a
-  booking engine
+- `mailto:` links (give@, weddings@, partners@, legacy@, founders@) need real
+  forms or a booking engine
+- The Founding 100 budget on `invest.html` is a working illustration that
+  sums to $4.375M — replace with real quotes before any founder signs
 
 ## Sensible next tasks
 
