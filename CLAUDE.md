@@ -5,8 +5,15 @@ Context for anyone (human or Claude) picking up this repo.
 ## What this is
 
 Marketing site for **Lovie's Haven** — a retirement sanctuary for rescued
-elephants, funded by a small luxury wellness retreat built at a respectful
-distance from the habitat.
+elephants, funded by a small luxury wellness retreat laid out on the same
+estate. The estate masterplan (supplied by the founder) is the source of
+truth for geography and naming: the Sky View Pavilion (wellness, events &
+dining) faces the Elephant View Meadow and the lake & watering hole;
+Lakeside Lodging and the Sunset Dock sit on the west shore; the Guest
+Cabins village, gated Main Entrance, perimeter Service Road and Winnie's
+Farm (a hands-on farm-animal rescue) sit east; Lovie's Private Residence
+is on the north lake. The herd is genuinely free-ranging — it is simply
+usually in view, because the meadow and water it prefers face the glass.
 
 Positioning: *Rehabilitation for elephants. Restoration for people.*
 Reference points: Aman Resorts meets The Elephant Sanctuary.
@@ -38,16 +45,17 @@ redirects `/` to `/lovieshaven` until a foundation homepage exists at root.
 vercel.json     Clean URLs, / → /lovieshaven redirect, asset caching
 lovieshaven/
   index.html      Home — hero, the one rule, field log, land, two species,
-                  pavilion, ways in, funding, closer
+                  pavilion, ways in, Winnie's Farm, funding, closer
   elephants.html  Residents, the nevers, observation model, field log (#log)
+  farm.html       Winnie's Farm — the hands-on animal rescue
   stay.html       Location, cabins, rates, house rules, private buyout
   wellness.html   Human-healing pillar, daily rhythm, treatments,
                   memberships (#membership), retreats
   weddings.html   Twelve dates a year, conditions, inclusions
   cafe.html       Café and gift shop
   story.html      Brand story
-  about.html      Philosophy, the rule applied, land plan, care standards,
-                  breeding position, what we are not
+  about.html      Philosophy, the rule applied, estate plan SVG (#plan),
+                  care standards, breeding position, what we are not
   donate.html     Costs, giving, sponsorship (#sponsor), partners (#partners),
                   legacy (#legacy)
   style.css       All design tokens and layout
@@ -56,7 +64,9 @@ SITEMAP.md      Full site map, design system, handoff notes
 ```
 
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
-change all nine.** There is no template engine; that's the tradeoff.
+change all ten.** There is no template engine; that's the tradeoff. The top
+nav stays at seven items; `cafe.html` and `farm.html` are reached from the
+footer and in-page links.
 
 The site is served at **theloviesfoundation.org/lovieshaven** — a subpath,
 not a domain root. All internal links and asset references must stay
@@ -88,10 +98,14 @@ modifier class, or the specificities will fight.
 Motion: one ambient drift in the hero, staggered `.rise` reveals on scroll,
 nothing else. `prefers-reduced-motion` is respected and must stay that way.
 
-**No photography anywhere.** The hero herd is drawn SVG, deliberately distant
-and captioned *"observed from the pavilion, 400 metres away."* This is a brand
-position, not a placeholder waiting to be filled. When real images arrive, keep
-the distance honest — nothing closer than a guest could actually stand.
+**No photography yet — everything is drawn.** All imagery is inline SVG in
+the site's silhouette style: the hero meadow scene, the labeled estate plan
+on `about.html#plan`, the Lakeside/Sunset Dock scene on `stay.html`, the
+farm scene on `farm.html`, and the circular badge logo on `story.html`
+(line-drawn elephant raising her trunk to a heart — the real logo's motif).
+The founder's photoreal masterplan renders can replace or join these; drop
+files in `lovieshaven/img/` and swap the figures. Scenes should keep
+matching the masterplan geography.
 
 ## Editorial rules
 
@@ -100,14 +114,18 @@ touch:
 
 - Every decision answers **"Is this better for the elephants?"** If no, it isn't
   built. This line appears on home and about and should not be softened.
-- No performances, no contact, no feeding, no bathing, no photo sessions, no
-  scheduled sightings, no promise a guest will see an elephant at all.
+- No performances, no contact, no feeding, no bathing, no rides, no photo
+  sessions with elephants. Sightings are frequent (the meadow faces the
+  glass) but never scheduled, promised, or engineered — elephants are never
+  summoned, positioned or lit for viewing.
+- Winnie's Farm is the hands-on release valve: rescued farm animals who
+  *want* the attention. Contact belongs there, never with the herd.
 - No breeding. Retirement sanctuary, not a breeding programme.
-- Guests are sited near where elephants already go (watering hole, shade stand,
-  wallow). Elephants are never moved toward guests.
+- Guests are sited near where elephants already go (meadow, watering hole,
+  shade stand, wallow). Elephants are never moved toward guests.
 - The **field log** is the signature device — dated care-team entries published
-  unedited, *including* the mornings nobody saw an elephant. Don't sand off the
-  empty days; they are the proof.
+  unedited, *including* the quiet days when the herd keeps to the grove.
+  Don't sand those off; they are the proof the sightings are real.
 
 Voice is plain, specific, and unsentimental. Short declaratives. It earns
 emotion by withholding it. No exclamation marks, no "nestled," no "unforgettable
@@ -115,7 +133,8 @@ experience," no marketing adjectives stacked three deep.
 
 ## Placeholder — replace before publishing
 
-- Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth)
+- Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth),
+  and the farm's residents (Winnie et al.)
 - All rates, wedding pricing, membership tiers, and dollar figures
 - 150 acres, ten-elephant capacity, national-forest boundary — these assume a
   target property that isn't secured. Confirm wetlands, zoning, setbacks and

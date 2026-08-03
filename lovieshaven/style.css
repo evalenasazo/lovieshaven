@@ -203,8 +203,13 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   text-decoration: none;
   color: var(--mist);
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
 }
-.brand span { display: block; font-family: var(--body); font-size: 0.5rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--hide); margin-top: 0.4em; }
+.brand-mark { width: 42px; height: 42px; flex: none; color: var(--lamp); }
+.brand-tx { display: block; }
+.brand-tx span { display: block; font-family: var(--body); font-size: 0.5rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--hide); margin-top: 0.4em; }
 
 .nav { display: flex; align-items: center; gap: clamp(1rem, 2.2vw, 2rem); }
 .nav a {
@@ -514,6 +519,52 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .foot .brand { color: var(--mist); }
 .foot-note { margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--line-dark); font-size: 0.76rem; color: rgba(240, 237, 228, 0.42); display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; justify-content: space-between; }
 .foot-note p { margin: 0; max-width: 60ch; }
+
+/* --- illustrated scenes ---------------------------------------------------
+   Drawn SVG artwork in place of photography. Scenes share the hero's
+   silhouette style; captions match .horizon-cap but adapt to light sections. */
+
+.scene { margin: 3rem 0 0; }
+.scene svg { width: 100%; height: auto; display: block; }
+@media (max-width: 700px) {
+  .scene { overflow: hidden; }
+  .scene svg { width: 180%; margin-left: -12%; }
+}
+.scene-cap {
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--hide);
+  padding: 0.9rem 0 0;
+  border-top: 1px solid var(--line);
+  margin: 0;
+  max-width: none;
+}
+.s-dark .scene-cap, .s-water .scene-cap {
+  color: rgba(240, 237, 228, 0.42);
+  border-top-color: var(--line-dark);
+}
+
+/* --- estate plan ---------------------------------------------------------- */
+
+.plan { margin: 3rem 0 0; }
+.plan svg { width: 100%; height: auto; display: block; }
+@media (max-width: 700px) {
+  .plan { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .plan svg { min-width: 720px; }
+}
+.plan text { font-family: var(--body); }
+.plan .plan-label { font-size: 13px; font-weight: 600; letter-spacing: 0.14em; fill: var(--mist); }
+.plan .plan-sub { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; fill: rgba(240, 237, 228, 0.66); }
+
+/* --- badge logo ----------------------------------------------------------- */
+
+.badge { max-width: 400px; margin-inline: auto; }
+.badge svg { width: 100%; height: auto; display: block; }
+.badge .badge-word { font-family: var(--script); font-size: 56px; fill: var(--water); }
+.badge .badge-line { font-family: var(--body); font-weight: 600; letter-spacing: 0.3em; fill: var(--ink); font-size: 17px; }
+.badge .badge-sub { font-family: var(--body); font-weight: 600; letter-spacing: 0.3em; fill: var(--lamp); font-size: 15px; }
+.badge .badge-est { font-family: var(--body); font-weight: 600; letter-spacing: 0.34em; fill: var(--hide); font-size: 11px; }
 
 /* --- reveal -------------------------------------------------------------- */
 
