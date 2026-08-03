@@ -156,9 +156,14 @@ touch:
   unedited, *including* the quiet days when the herd keeps to the grove.
   Don't sand those off; they are the proof the sightings are real.
 
-Voice is plain, specific, and unsentimental. Short declaratives. It earns
-emotion by withholding it. No exclamation marks, no "nestled," no "unforgettable
-experience," no marketing adjectives stacked three deep.
+Voice is warm, sincere, and human — a founder who loves elephants talking
+to you, not a copywriter being clever (the founder's direction, Aug 2026,
+modeled on myakkaelephantranch.org). "We" and "you", contractions, feelings
+stated plainly. American spelling. The welfare facts stay firm (no contact,
+no shows, no breeding) but are said with love, never sternness — "her
+retirement is the whole gift," not "she is not available." Avoid ironic
+reversals and aphorisms that read cold. Still no exclamation marks stacked
+up, and no empty marketing superlatives — warmth comes from specifics.
 
 ## Placeholder — replace before publishing
 
