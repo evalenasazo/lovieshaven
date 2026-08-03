@@ -28,9 +28,22 @@ python3 -m http.server 8000
 
 ## Deploy
 
+The site lives at **https://theloviesfoundation.org/lovieshaven** — a subpath
+of the foundation domain, not the domain root. Every internal link is
+relative (`stay.html`, not `/stay.html`), so the site works unchanged from
+any base path. Keep links relative; a leading slash would break the subpath.
+
 Vercel serves this as-is. `vercel.json` enables clean URLs, so `/about.html`
-redirects to `/about`. Internal links still use the `.html` form and resolve
-correctly.
+redirects to `/about`. Canonical tags on each page point to the clean
+`/lovieshaven/...` URLs.
+
+Two ways to put it at the subpath:
+
+1. **Same project** — if the foundation site is one Vercel project, place
+   these files in a `lovieshaven/` directory of that project.
+2. **Separate project** (this repo) — deploy standalone, then rewrite from
+   the foundation project: `{ "source": "/lovieshaven/:path*",
+   "destination": "https://<this-deployment>/:path*" }`.
 
 ```bash
 vercel          # preview

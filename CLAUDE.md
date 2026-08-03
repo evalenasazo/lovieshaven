@@ -53,6 +53,11 @@ vercel.json     Clean URLs + asset caching
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
 change all nine.** There is no template engine; that's the tradeoff.
 
+The site is served at **theloviesfoundation.org/lovieshaven** — a subpath,
+not a domain root. All internal links and asset references must stay
+relative (`stay.html`, `style.css`); never add a leading slash or the
+subpath breaks. Canonical tags point at the clean `/lovieshaven/...` URLs.
+
 ## Design system — do not drift from this
 
 Palette (defined as CSS custom properties at the top of `style.css`):
