@@ -229,6 +229,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   padding: 0.75em 1.4em;
 }
 .nav .nav-cta:hover { color: var(--shade); opacity: 0.82; }
+.nav .nav-cta[aria-current="page"] { color: var(--shade); }
 
 .menu-btn {
   display: none;

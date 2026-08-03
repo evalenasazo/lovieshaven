@@ -5,11 +5,12 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 
 **Positioning line** — Rehabilitation for elephants. Restoration for people.
 **Design principle** — Is this better for the elephants? If no, we don't build it.
-**Reader outcome** — "I want to stay here, and then I want to protect this place."
+**Reader outcome** — "I want this to exist, and I want to be one of the hundred who build it."
+**The raise** — the Founding 100: 50 × $25k (Meadow) + 25 × $50k (Lakeside) + 25 × $75k (Sky View) = $4.375M, once. Lifetime classes + 2/3/4-night annual stay for life.
 
 ---
 
-## Built now (9 pages + home)
+## Built now (10 pages + home)
 
 | # | Page | File | Job it does | Primary CTA |
 |---|------|------|-------------|-------------|
@@ -23,9 +24,11 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 | 8 | Support | `donate.html` | Costs, giving, sponsorship (`#sponsor`), partners (`#partners`), legacy (`#legacy`) | Give monthly |
 | 9 | Café & Shop | `cafe.html` | Two revenue lines told honestly; no elephant merchandise | Support / stay |
 | 10 | Winnie's Farm | `farm.html` | The hands-on animal rescue; protects the herd's distance | Stay / support |
+| 11 | The Founding 100 | `invest.html` | The pitch: tiers, budget, honest arithmetic, escrow terms | Reserve a place |
 
 ### Home page section order
-1. Hero — headline, the herd on the Elephant View Meadow at golden hour
+1. Hero — headline over the masterplan concept render (`img/masterplan.jpg`)
+1b. The Founding 100 — the raise and three tiers, linked to `invest.html`
 2. The one rule — *Is this better for the elephants?*
 3. **Field log** (signature) — published unedited, including the quiet days
 4. The land — the estate laid out around the herd, allocation band
@@ -51,7 +54,7 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 
 ## Global elements
 
-**Navigation** — Our Elephants · Stay · Wellness · Weddings · Story · About · **Support Us** (gold CTA)
+**Navigation** — Our Elephants · Stay · Wellness · Weddings · Story · About · **Founding 100** (gold CTA → invest.html)
 Café & Shop and Winnie's Farm sit in the footer only, to keep the top nav at seven items.
 
 **Footer columns** — Visit · The sanctuary · Support, plus the standing disclosure: *no rides, shows or hands-on encounters with the herd — they range freely and are usually in view on their own terms.*

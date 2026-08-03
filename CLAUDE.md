@@ -17,9 +17,18 @@ usually in view, because the meadow and water it prefers face the glass.
 
 Positioning: *Rehabilitation for elephants. Restoration for people.*
 Reference points: Aman Resorts meets The Elephant Sanctuary.
-Reader outcome: "I want to stay here, and then I want to protect this place."
 
-Concept stage. Not live. Nothing here is a legal or financial commitment.
+The site now doubles as the **pitch**: the project is funded by the
+Founding 100 — one hundred founding memberships (50 × $25k Meadow,
+25 × $50k Lakeside, 25 × $75k Sky View = a single $4.375M raise) that buy
+lifetime class access plus a 2/3/4-night annual stay for life. The nav CTA
+and home hero drive to `invest.html`; the reader outcome is "I want this
+to exist, and I want to be one of the hundred."
+
+Concept stage. Not live. Nothing here is a legal or financial commitment;
+founding memberships are framed as contributions with lifetime benefits
+(escrow until the land closes, written agreement, explicitly not a
+security), and `invest.html` carries that disclaimer — keep it.
 
 ## Stack
 
@@ -44,8 +53,11 @@ redirects `/` to `/lovieshaven` until a foundation homepage exists at root.
 ```
 vercel.json     Clean URLs, / → /lovieshaven redirect, asset caching
 lovieshaven/
-  index.html      Home — hero, the one rule, field log, land, two species,
+  index.html      Home — masterplan hero (img/masterplan.jpg), Founding 100
+                  strip, the one rule, field log, land, two species,
                   pavilion, ways in, Winnie's Farm, funding, closer
+  invest.html     The Founding 100 — tiers, budget, arithmetic, how it
+                  works, disclaimer
   elephants.html  Residents, the nevers, observation model, field log (#log)
   farm.html       Winnie's Farm — the hands-on animal rescue
   stay.html       Location, cabins, rates, house rules, private buyout
@@ -60,13 +72,17 @@ lovieshaven/
                   legacy (#legacy)
   style.css       All design tokens and layout
   site.js         Sticky header, mobile menu, IntersectionObserver reveals
+  img/            masterplan.jpg — the founder's concept render (hero).
+                  More renders land here as they're supplied (GHL-hosted
+                  URLs may be swapped in for local files)
 SITEMAP.md      Full site map, design system, handoff notes
 ```
 
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
 change all ten.** There is no template engine; that's the tradeoff. The top
-nav stays at seven items; `cafe.html` and `farm.html` are reached from the
-footer and in-page links.
+nav stays at seven links plus the CTA, which points at `invest.html`
+("Founding 100"); `cafe.html`, `farm.html` and `donate.html` are reached
+from the footer and in-page links.
 
 The site is served at **theloviesfoundation.org/lovieshaven** — a subpath,
 not a domain root. All internal links and asset references must stay
@@ -140,8 +156,10 @@ experience," no marketing adjectives stacked three deep.
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile
-- `mailto:` links (give@, weddings@, partners@, legacy@) need real forms or a
-  booking engine
+- `mailto:` links (give@, weddings@, partners@, legacy@, founders@) need real
+  forms or a booking engine
+- The Founding 100 budget on `invest.html` is a working illustration that
+  sums to $4.375M — replace with real quotes before any founder signs
 
 ## Sensible next tasks
 
