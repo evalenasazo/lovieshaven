@@ -1,4 +1,4 @@
-# Restoration — Sanctuary & Retreat
+# Lovie's Haven — Sanctuary & Retreat
 
 Static marketing site. No build step, no dependencies, no framework.
 

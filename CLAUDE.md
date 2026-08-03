@@ -4,7 +4,7 @@ Context for anyone (human or Claude) picking up this repo.
 
 ## What this is
 
-Marketing site for **Restoration** — a retirement sanctuary for rescued
+Marketing site for **Lovie's Haven** — a retirement sanctuary for rescued
 elephants, funded by a small luxury wellness retreat built at a respectful
 distance from the habitat.
 
@@ -59,15 +59,16 @@ Palette (defined as CSS custom properties at the top of `style.css`):
 
 | Token | Hex | Meaning |
 |---|---|---|
-| `--shade` | `#101815` | deep forest shade |
-| `--water` | `#1B2C25` | still lake at dawn |
-| `--moss` | `#35473D` | wet leaf |
-| `--hide` | `#7E8479` | wet hide, grey-green |
-| `--mist` | `#DFE2D9` | cold morning mist |
-| `--paper` | `#EDEEE7` | pale page |
-| `--lamp` | `#C8A75E` | pavilion lamplight, brass |
+| `--shade` | `#2E3527` | deep olive shade |
+| `--water` | `#3D4735` | palm shadow |
+| `--moss` | `#6B7355` | sage leaf |
+| `--hide` | `#8C8F7C` | grey-sage |
+| `--mist` | `#F0EDE4` | warm cream mist |
+| `--paper` | `#F8F5EC` | pale cream page |
+| `--lamp` | `#BE8074` | blush rose, sunset over the lake |
 
-Type: **Cormorant Garamond** 300 for display, set large and used sparingly.
+Type: **Great Vibes** for the wordmark only (the script from the logo).
+**Cormorant Garamond** 300 for display, set large and used sparingly.
 **Karla** 400/500/600 for body, labels, and uppercase eyebrows at `0.24em`.
 
 Section backgrounds alternate via `.s-dark` / `.s-water` / `.s-mist` / default
@@ -104,7 +105,7 @@ experience," no marketing adjectives stacked three deep.
 
 ## Placeholder — replace before publishing
 
-- Resident names, ages, arrival years and histories (Nandi, Bala, Meera, Ruth)
+- Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth)
 - All rates, wedding pricing, membership tiers, and dollar figures
 - 150 acres, ten-elephant capacity, national-forest boundary — these assume a
   target property that isn't secured. Confirm wetlands, zoning, setbacks and

@@ -1,23 +1,24 @@
 /* ==========================================================================
-   RESTORATION — shared stylesheet
-   Palette drawn from the sanctuary itself: forest shade, still water,
-   wet hide, morning mist, pavilion lamplight.
+   LOVIE'S HAVEN — shared stylesheet
+   Palette drawn from the haven itself: olive shade, palm shadow, sage leaf,
+   warm cream, and the blush of a Florida sunset.
    ========================================================================== */
 
 :root {
-  --shade:  #101815;  /* deep forest shade — near-black green */
-  --water:  #1B2C25;  /* still lake at dawn */
-  --moss:   #35473D;  /* wet leaf */
-  --hide:   #7E8479;  /* wet hide, grey-green */
-  --mist:   #DFE2D9;  /* cold morning mist */
-  --paper:  #EDEEE7;  /* pale page */
-  --lamp:   #C8A75E;  /* pavilion lamplight, brass */
-  --ink:    #121A16;
+  --shade:  #2E3527;  /* deep olive shade — near-black green */
+  --water:  #3D4735;  /* palm shadow */
+  --moss:   #6B7355;  /* sage leaf */
+  --hide:   #8C8F7C;  /* grey-sage */
+  --mist:   #F0EDE4;  /* warm cream mist */
+  --paper:  #F8F5EC;  /* pale cream page */
+  --lamp:   #BE8074;  /* blush rose, sunset over the lake */
+  --ink:    #333A2C;
 
-  --line: rgba(18, 26, 22, 0.16);
-  --line-dark: rgba(223, 226, 217, 0.18);
+  --line: rgba(51, 58, 44, 0.16);
+  --line-dark: rgba(240, 237, 228, 0.18);
 
   --display: "Cormorant Garamond", Georgia, serif;
+  --script: "Great Vibes", "Cormorant Garamond", cursive;
   --body: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
   --gut: clamp(1.25rem, 4vw, 3.5rem);
@@ -84,10 +85,10 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .lede {
   font-size: clamp(1.08rem, 1.7vw, 1.32rem);
   line-height: 1.6;
-  color: rgba(18, 26, 22, 0.82);
+  color: rgba(51, 58, 44, 0.82);
 }
 
-.quiet { color: rgba(18, 26, 22, 0.62); }
+.quiet { color: rgba(51, 58, 44, 0.62); }
 .small { font-size: 0.85rem; line-height: 1.6; }
 
 .serif-quote {
@@ -114,8 +115,8 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .s-mist { background: var(--mist); }
 
 .s-dark .eyebrow, .s-water .eyebrow { color: var(--lamp); }
-.s-dark .lede, .s-water .lede { color: rgba(223, 226, 217, 0.78); }
-.s-dark .quiet, .s-water .quiet { color: rgba(223, 226, 217, 0.58); }
+.s-dark .lede, .s-water .lede { color: rgba(240, 237, 228, 0.78); }
+.s-dark .quiet, .s-water .quiet { color: rgba(240, 237, 228, 0.58); }
 
 .hr { height: 1px; background: var(--line); border: 0; margin: 0; }
 .s-dark .hr, .s-water .hr { background: var(--line-dark); }
@@ -178,12 +179,12 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   position: sticky;
   top: 0;
   z-index: 60;
-  background: rgba(16, 24, 21, 0.0);
+  background: rgba(46, 53, 39, 0.0);
   transition: background 0.5s ease, border-color 0.5s ease;
   border-bottom: 1px solid transparent;
 }
 .site-head.is-solid {
-  background: rgba(16, 24, 21, 0.94);
+  background: rgba(46, 53, 39, 0.94);
   backdrop-filter: blur(10px);
   border-bottom-color: var(--line-dark);
 }
@@ -195,15 +196,15 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   padding-block: 1.15rem;
 }
 .brand {
-  font-family: var(--display);
-  font-size: 1.32rem;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
+  font-family: var(--script);
+  font-size: 1.85rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--mist);
   white-space: nowrap;
 }
-.brand span { display: block; font-family: var(--body); font-size: 0.5rem; letter-spacing: 0.28em; color: var(--hide); margin-top: 0.25em; }
+.brand span { display: block; font-family: var(--body); font-size: 0.5rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--hide); margin-top: 0.4em; }
 
 .nav { display: flex; align-items: center; gap: clamp(1rem, 2.2vw, 2rem); }
 .nav a {
@@ -212,7 +213,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   letter-spacing: 0.16em;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgba(223, 226, 217, 0.78);
+  color: rgba(240, 237, 228, 0.78);
   transition: color 0.3s ease;
   padding-block: 0.4em;
 }
@@ -246,7 +247,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
-    background: rgba(16, 24, 21, 0.985);
+    background: rgba(46, 53, 39, 0.985);
     padding: 1.5rem var(--gut) 2.5rem;
     border-bottom: 1px solid var(--line-dark);
     display: none;
@@ -272,14 +273,14 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   inset: 0;
   z-index: -2;
   background:
-    radial-gradient(120% 80% at 62% 84%, rgba(200, 167, 94, 0.20) 0%, rgba(200, 167, 94, 0) 58%),
-    linear-gradient(178deg, #0C1310 0%, #14201B 42%, #23342B 74%, #33463A 100%);
+    radial-gradient(120% 80% at 62% 84%, rgba(232, 168, 148, 0.26) 0%, rgba(232, 168, 148, 0) 58%),
+    linear-gradient(178deg, #232A1D 0%, #2E3728 42%, #435040 74%, #596850 100%);
 }
 .hero-mist {
   position: absolute;
   inset: -20% -30% 0;
   z-index: -1;
-  background: radial-gradient(50% 40% at 30% 70%, rgba(223, 226, 217, 0.10), rgba(223, 226, 217, 0) 70%);
+  background: radial-gradient(50% 40% at 30% 70%, rgba(240, 237, 228, 0.10), rgba(240, 237, 228, 0) 70%);
   animation: drift 34s ease-in-out infinite alternate;
 }
 @keyframes drift {
@@ -310,7 +311,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   font-size: 0.66rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(223, 226, 217, 0.42);
+  color: rgba(240, 237, 228, 0.42);
   padding: 0.9rem 0 1.6rem;
   border-top: 1px solid var(--line-dark);
   margin: 0;
@@ -321,12 +322,12 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .page-hero::after {
   content: "";
   position: absolute; inset: 0; z-index: 0;
-  background: radial-gradient(90% 120% at 78% 110%, rgba(200, 167, 94, 0.16), rgba(200,167,94,0) 60%);
+  background: radial-gradient(90% 120% at 78% 110%, rgba(216, 149, 136, 0.16), rgba(216,149,136,0) 60%);
   pointer-events: none;
 }
 .page-hero .wrap { position: relative; z-index: 1; }
 .page-hero h1 { max-width: 18ch; }
-.page-hero .lede { max-width: 52ch; color: rgba(223, 226, 217, 0.76); }
+.page-hero .lede { max-width: 52ch; color: rgba(240, 237, 228, 0.76); }
 .page-hero .eyebrow { color: var(--lamp); }
 
 /* --- the one rule -------------------------------------------------------- */
@@ -363,7 +364,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   margin: 0.35em 0 0;
 }
 .log-meta b { display: block; font-weight: 600; }
-.log-meta span { color: rgba(223, 226, 217, 0.45); font-weight: 400; letter-spacing: 0.14em; }
+.log-meta span { color: rgba(240, 237, 228, 0.45); font-weight: 400; letter-spacing: 0.14em; }
 .log-text {
   font-family: var(--display);
   font-size: clamp(1.15rem, 2vw, 1.45rem);
@@ -373,7 +374,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   margin: 0;
   max-width: 62ch;
 }
-.log-text em { font-style: italic; color: rgba(223, 226, 217, 0.66); }
+.log-text em { font-style: italic; color: rgba(240, 237, 228, 0.66); }
 
 /* --- land allocation band ------------------------------------------------ */
 
@@ -389,13 +390,13 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .band-a::after {
   content: "";
   position: absolute; inset: 0;
-  background: repeating-linear-gradient(72deg, rgba(223,226,217,0.07) 0 2px, transparent 2px 11px);
+  background: repeating-linear-gradient(72deg, rgba(240,237,228,0.07) 0 2px, transparent 2px 11px);
 }
 .band-b { flex: 6; background: var(--lamp); }
 .band-keys { display: flex; justify-content: space-between; gap: 2rem; margin-top: 1rem; }
 .band-key { font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--hide); }
 .band-key b { display: block; font-family: var(--display); font-size: 1.5rem; letter-spacing: 0; text-transform: none; font-weight: 400; color: inherit; }
-.s-dark .band-key, .s-water .band-key { color: rgba(223, 226, 217, 0.6); }
+.s-dark .band-key, .s-water .band-key { color: rgba(240, 237, 228, 0.6); }
 .s-dark .band-key b, .s-water .band-key b { color: var(--mist); }
 .band-key:last-child { text-align: right; }
 
@@ -480,7 +481,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   font-style: italic;
   font-size: 1.22rem;
   line-height: 1.45;
-  color: rgba(18, 26, 22, 0.72);
+  color: rgba(51, 58, 44, 0.72);
 }
 
 /* --- pull / closing ------------------------------------------------------ */
@@ -501,7 +502,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 
 /* --- footer -------------------------------------------------------------- */
 
-.foot { background: var(--shade); color: rgba(223, 226, 217, 0.7); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2.5rem; }
+.foot { background: var(--shade); color: rgba(240, 237, 228, 0.7); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2.5rem; }
 .foot-grid { display: grid; grid-template-columns: 1.4fr repeat(3, 1fr); gap: 2.5rem; }
 @media (max-width: 880px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .foot-grid { grid-template-columns: 1fr; } }
@@ -511,7 +512,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 .foot a { text-decoration: none; font-size: 0.92rem; transition: color 0.3s ease; }
 .foot a:hover { color: var(--lamp); }
 .foot .brand { color: var(--mist); }
-.foot-note { margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--line-dark); font-size: 0.76rem; color: rgba(223, 226, 217, 0.42); display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; justify-content: space-between; }
+.foot-note { margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--line-dark); font-size: 0.76rem; color: rgba(240, 237, 228, 0.42); display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; justify-content: space-between; }
 .foot-note p { margin: 0; max-width: 60ch; }
 
 /* --- reveal -------------------------------------------------------------- */

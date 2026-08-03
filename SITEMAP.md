@@ -1,7 +1,7 @@
-# Restoration — Site Map
+# Lovie's Haven — Site Map
 
 **Vision statement**
-Restoration is a sanctuary for elephants and a retreat for people. We exist to restore dignity to rescued elephants and create space for human peace.
+Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to restore dignity to rescued elephants and create space for human peace.
 
 **Positioning line** — Rehabilitation for elephants. Restoration for people.
 **Design principle** — Is this better for the elephants? If no, we don't build it.
@@ -66,15 +66,15 @@ Café & Shop sits in the footer only, to keep the top nav at seven items.
 
 | | |
 |---|---|
-| Shade | `#101815` deep forest shade |
-| Water | `#1B2C25` still lake at dawn |
-| Moss | `#35473D` wet leaf |
-| Hide | `#7E8479` wet hide, grey-green |
-| Mist | `#DFE2D9` cold morning mist |
-| Paper | `#EDEEE7` pale page |
-| Lamp | `#C8A75E` pavilion lamplight, brass |
+| Shade | `#2E3527` deep olive shade |
+| Water | `#3D4735` palm shadow |
+| Moss | `#6B7355` sage leaf |
+| Hide | `#8C8F7C` grey-sage |
+| Mist | `#F0EDE4` warm cream mist |
+| Paper | `#F8F5EC` pale cream page |
+| Lamp | `#BE8074` blush rose, sunset over the lake |
 
-**Type** — Cormorant Garamond 300 (display, used large and sparingly) · Karla 400/500/600 (body, labels, uppercase eyebrows at 0.24em tracking)
+**Type** — Great Vibes (wordmark script, from the logo) · Cormorant Garamond 300 (display, used large and sparingly) · Karla 400/500/600 (body, labels, uppercase eyebrows at 0.24em tracking)
 
 **Motion** — one ambient drift in the hero, staggered rise-on-scroll, nothing else. `prefers-reduced-motion` respected throughout.
 
