@@ -70,6 +70,9 @@ lovieshaven/
   elephants.html  Residents, the nevers, observation model, field log (#log)
   farm.html       Winnie's Farm — the hands-on animal rescue
   stay.html       Location, cabins, rates, house rules, private buyout
+  visit.html      Visiting & questions — the sighting question answered
+                  plainly, plus the honest FAQ (contact, day visits,
+                  children, booking); modeled on elephants.com's FAQ
   wellness.html   Human-healing pillar, daily rhythm, treatments,
                   memberships (#membership), retreats
   weddings.html   Twelve dates a year, conditions, inclusions
@@ -92,10 +95,10 @@ SITEMAP.md      Full site map, design system, handoff notes
 ```
 
 Pages share an identical `<header>` and `<footer>` block. **If you change one,
-change all ten.** There is no template engine; that's the tradeoff. The top
+change all eleven.** There is no template engine; that's the tradeoff. The top
 nav stays at seven links plus the CTA, which points at `invest.html`
-("Founding 100"); `cafe.html`, `farm.html` and `donate.html` are reached
-from the footer and in-page links.
+("Founding 100"); `cafe.html`, `farm.html`, `visit.html` and `donate.html`
+are reached from the footer and in-page links.
 
 The site is served at **theloviesfoundation.org/lovieshaven** — a subpath,
 not a domain root. All internal links and asset references must stay
@@ -177,7 +180,7 @@ up, and no empty marketing superlatives — warmth comes from specifics.
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile
-- `mailto:` links (give@, weddings@, partners@, legacy@, founders@) need real
+- `mailto:` links (give@, weddings@, partners@, legacy@, founders@, stay@) need real
   forms or a booking engine
 - The Founding 100 budget on `invest.html` is a working illustration that
   sums to $4.375M — replace with real quotes before any founder signs
@@ -185,7 +188,7 @@ up, and no empty marketing superlatives — warmth comes from specifics.
 ## Sensible next tasks
 
 - Contact / enquire page, split by intent (stays, weddings, press, giving)
-- Visit & FAQ, answering the sighting question plainly
+- Getting-here details (travel, arrival) on `visit.html` — the FAQ half is done
 - Journal for long-form field writing
 - Transparency page: accounts, welfare audit, intake decisions
 - Real booking flow on `stay.html`

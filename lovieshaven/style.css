@@ -490,6 +490,12 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
   color: rgba(51, 58, 44, 0.72);
 }
 
+.qa { padding-block: clamp(2rem, 4vw, 3rem); border-bottom: 1px solid var(--line); }
+.qa:first-of-type { border-top: 1px solid var(--line); }
+.qa h3 { max-width: 30ch; margin-bottom: 0.75em; }
+.qa p { max-width: 62ch; }
+.qa p:last-child { margin-bottom: 0; }
+
 /* --- pull / closing ------------------------------------------------------ */
 
 .closer { text-align: center; }
