@@ -82,8 +82,12 @@ lovieshaven/
   style.css       All design tokens and layout
   site.js         Sticky header, mobile menu, IntersectionObserver reveals
   img/            masterplan.jpg — the founder's concept render (hero).
-                  More renders land here as they're supplied (GHL-hosted
-                  URLs may be swapped in for local files)
+                  The real badge logo is hotlinked from the founder's GHL
+                  CDN (assets.cdn.filesafe.space) on story.html and as the
+                  favicon on every page — the build sandbox's egress policy
+                  can't reach that CDN, so to localize it, download the PNG
+                  to img/logo.png yourself and swap the references. More
+                  renders land here as they're supplied.
 SITEMAP.md      Full site map, design system, handoff notes
 ```
 
