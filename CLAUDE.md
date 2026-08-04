@@ -37,11 +37,12 @@ Founding 150 — one hundred and fifty founding memberships (50 × $25k
 Meadow, 50 × $50k Lakeside, 50 × $75k Sky View = a $7.5M raise) that
 buy a lifetime class pass, two seats at the annual Founders' Gala, and
 a complimentary 1/2/3-night annual stay for life. Founders fund
-**Phase One only**: land, habitat, barns, farm, first arrivals and an
-endowment seed — the sanctuary itself. Phase Two (pavilion, bungalows,
-village, the rest of the endowment; $8–12M working target of a $15–20M
-total build) is a follow-on capital campaign of named gifts, grants
-and partners. Don't let copy claim the $7.5M builds everything. The
+**Phase One only**: land, habitat, barns, farm, first arrivals, and
+the first earning pieces of the retreat (the café and first village
+huts, open early because the retreat is what funds elephant care).
+Phase Two (the full pavilion, remaining bungalows, village, the
+endowment; $8–12M working target of a $15–20M total build) is a
+follow-on capital campaign of named gifts, grants and partners. Don't let copy claim the $7.5M builds everything. The
 nav CTA and home hero drive to `invest.html`; the reader outcome is
 "I want this to exist, and I want to be one of the hundred and fifty."
 
