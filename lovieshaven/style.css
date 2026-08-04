@@ -568,7 +568,7 @@ p { margin: 0 0 1.15em; max-width: 68ch; }
 
 .badge { max-width: 400px; margin-inline: auto; }
 .badge svg { width: 100%; height: auto; display: block; }
-.badge img { width: 100%; height: auto; border: 1px solid var(--line); }
+.badge img { width: 100%; height: auto; mix-blend-mode: multiply; }
 .badge .badge-word { font-family: var(--script); font-size: 56px; fill: var(--water); }
 .badge .badge-line { font-family: var(--body); font-weight: 600; letter-spacing: 0.3em; fill: var(--ink); font-size: 17px; }
 .badge .badge-sub { font-family: var(--body); font-weight: 600; letter-spacing: 0.3em; fill: var(--lamp); font-size: 15px; }
