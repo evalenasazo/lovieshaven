@@ -189,6 +189,9 @@ up, and no empty marketing superlatives — warmth comes from specifics.
 
 - Resident names, ages, arrival years and histories (Lovies, Bala, Meera, Ruth),
   and the farm's residents (Winnie et al.)
+- The story page is written as a letter from the founder and signed
+  anonymously ("Lovies' cousin"); swap in the founder's real name and
+  title when they're ready to be named on the site
 - All rates, membership tiers, and dollar figures. Founder-set so far:
   water bungalows $1,960/night (1–2 bed, private dock, sleeps 4),
   village huts $1,060/night (studio/1-bed), wedding weekends from $15k,
