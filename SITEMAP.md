@@ -19,8 +19,8 @@ Lovie's Haven is a sanctuary for elephants and a retreat for people. We exist to
 | 3 | Stay | `stay.html` | Convert to booking. Cabins, rates, house rules, buyout | Plan a stay |
 | 4 | Wellness | `wellness.html` | Daily rhythm, pavilion, memberships (`#membership`), retreats | Join / book |
 | 5 | Weddings | `weddings.html` | Twelve dates a year, conditions, inclusions, endowment share | Ask about a date |
-| 6 | Story | `story.html` | The founder's story — Lovie, The Lovie's Foundation, why the retreat funds the sanctuary | Stay or support |
-| 7 | About | `about.html` | Philosophy, the rule applied, land plan, care standards | Meet the residents |
+| 6 | Story | `story.html` | The founder's story — Lovies, The Lovies Foundation, why the retreat funds the sanctuary | Stay or support |
+| 7 | About | `about.html` | Philosophy, restoration for people, the rule applied, land plan, care standards | Meet the residents |
 | 8 | Support | `donate.html` | Costs, giving, sponsorship (`#sponsor`), partners (`#partners`), legacy (`#legacy`) | Give monthly |
 | 9 | Café & Shop | `cafe.html` | Two revenue lines told honestly; no elephant merchandise | Support / stay |
 | 10 | Winnie's Farm | `farm.html` | The hands-on animal rescue; protects the herd's distance | Stay / support |

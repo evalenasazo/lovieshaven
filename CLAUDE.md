@@ -17,15 +17,15 @@ usually in view, because the meadow and water it prefers face the glass.
 
 The backstory (real, from the founder, Aug 2026): the founder has loved
 elephants all their life — the trips they daydream about are the
-sanctuaries of Asia. "Lovie" was their cousin and best friend, who
-passed away; The Lovie's Foundation was created after her death, in her
+sanctuaries of Asia. "Lovies" was their cousin and best friend, who
+passed away; The Lovies Foundation was created after her death, in her
 honor, for the benefit of her daughter. The foundation writes children's
 animal-adventure books; proceeds sit in a high-yield savings account
 until the child turns 21, with age-matched financial-literacy books sent
 along the way, and required financial-literacy classes plus a sit-down
 with a financial advisor before funds are released. Lovie's Haven is an
 extension of that foundation, and the first elephant carries the
-cousin's name — "two Lovies." This story lives on `story.html`; keep it
+cousin's nickname — "two Lovies." This story lives on `story.html`; keep it
 tender and first-person, and never fictionalize details about the cousin
 or her daughter beyond what's written there.
 
@@ -92,7 +92,7 @@ lovieshaven/
                   memberships (#membership), retreats
   weddings.html   Twelve dates a year, conditions, inclusions
   cafe.html       Café and gift shop
-  story.html      The founder's story — Lovie the cousin, The Lovie's
+  story.html      The founder's story — Lovies the cousin, The Lovies
                   Foundation (books → savings → literacy → release at 21),
                   the two Lovies
   about.html      Philosophy, the rule applied, estate plan SVG (#plan),
@@ -187,7 +187,7 @@ up, and no empty marketing superlatives — warmth comes from specifics.
 
 ## Placeholder — replace before publishing
 
-- Resident names, ages, arrival years and histories (Lovie, Bala, Meera, Ruth),
+- Resident names, ages, arrival years and histories (Lovies, Bala, Meera, Ruth),
   and the farm's residents (Winnie et al.)
 - All rates, membership tiers, and dollar figures. Founder-set so far:
   water bungalows $1,960/night (1–2 bed, private dock, sleeps 4),
