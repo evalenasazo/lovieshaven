@@ -200,8 +200,9 @@ up, and no empty marketing superlatives — warmth comes from specifics.
   target property that isn't secured. Confirm wetlands, zoning, setbacks and
   easements, or soften to intent.
 - Pavilion is described as seating 150 while weddings cap at 120 — reconcile
-- The Founders' Gala promises two seats to 150 founders (300 potential
-  guests) while the pavilion seats 150 — plan two sittings, or reconcile
+- The annual gala promises two seats to 150 founders plus two tickets
+  to 60 Keeper's Circle members (420 potential guests) while the
+  pavilion seats 150 — plan multiple sittings, or reconcile
 - `mailto:` links (give@, weddings@, partners@, legacy@, founders@, stay@) need real
   forms or a booking engine
 - The Founding 150 budget on `invest.html` is a working illustration that
